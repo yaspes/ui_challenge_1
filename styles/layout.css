@@ -1,0 +1,29 @@
+@media screen and (min-width: 800px){
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .flex-container { 
+    flex-direction: column wrap; 
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+  .item-a { order: 1; height: 75px; width: 100%; }
+  .item-b { order: 2; height: 150px; width: 100%;}
+  .item-c { order: 3; height: 125px; width: 100%;}
+  .item-d { order: 4; height: 125px; width: 100%;}
+  .item-e, .item-f{ 
+    flex: 1 1 40%;
+    height: 250px;
+    order: 5; 
+  }
+  .item-g, .item-h { 
+    flex: 1 1 40%;
+    height: 250px;
+    order: 6; 
+  }
+  .item-i { order: 7; height: 80px; width: 100%}
+}
