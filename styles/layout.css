@@ -23,29 +23,6 @@
     height: 150px;
   }
 }
-/*@media screen and (min-width: 800px){
-  .flex-container {
-    flex-direction: row;
-    display: flex;
-  }
-  .item-a { order: -1; width: 100%}
-  .item-b { 
-    order: 1; 
-    flex: 1 1 20%;
-    height: 600px;
-  }
-  .item-c, .item-d { 
-    order: 2;
-    flex: 2 2 40%;
-    height: 200px;
-  }
-  .item-e, .item-f, .item-g, .item-h {
-    order: 3;
-    flex: 1 0;
-    height: 250px;
-  }
-  .item-i { order: 4; width:100%; }
-}*/
 
 @media screen and (max-width: 800px){
   .flex-container { 
