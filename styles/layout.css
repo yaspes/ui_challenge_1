@@ -1,0 +1,48 @@
+@media screen and (min-width: 800px){
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row wrap;
+  }
+  .item-a { order: -2; height: 100px; flex-basis: 100%; }
+  .item-b { order: -1; height: 600px; flex: 0 0 20%;
+
+  }
+  .item-c, .item-d { 
+    order: 0;
+    height: 200px;
+    flex: 1 1 40%;
+  }
+  .item-e, .item-f, .item-g, .item-h {
+    order: 1;
+    height: 250px;
+    flex: 1 1 10%;
+  }
+  .item-i {
+    order: 2;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .flex-container { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .item-a { order: 1; height: 75px; width: 100%; }
+  .item-b { order: 2; height: 150px; width: 100%; }
+  .item-c { order: 3; height: 125px; width: 100%; } 
+  .item-d { order: 4; height: 125px; width: 100%; }
+  .item-e, .item-f{ 
+    flex: 1 1 40%;
+    height: 250px;
+    order: 5; 
+  }
+  .item-g, .item-h { 
+    flex: 1 1 40%;
+    height: 250px;
+    order: 6; 
+  }
+  .item-i { order: 7; height: 80px; width: 100% }
+}
